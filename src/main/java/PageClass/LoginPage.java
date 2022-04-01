@@ -8,6 +8,8 @@ import org.openqa.selenium.support.PageFactory;
 public class LoginPage {
 
 
+	//object repositories
+	
 	
 	@FindBy(id="txtUsername")
 	private WebElement username;
@@ -18,12 +20,16 @@ public class LoginPage {
 	@FindBy(xpath="//*[@id='btnLogin']")
 	private WebElement loginButton;
 	
+	
+	
+	//Intialise the weblement
 	public LoginPage(WebDriver driver) {
 		
 	
 		PageFactory.initElements(driver, this);
 	}
 	
+	//actions on webelemnt
 	public void login(String user, String pass) {
 		
 		username.sendKeys(user);

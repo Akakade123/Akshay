@@ -26,7 +26,7 @@ public class BaseTest {
 		 driver.manage().window().maximize();
 		 
 
-		 String path=System.getProperty("user.dir")+"\\src\\test\\resources\\config.properties";
+		String path=System.getProperty("user.dir")+"\\src\\test\\resources\\config.properties";
 			
 		Properties  prop=new Properties();
 		 
