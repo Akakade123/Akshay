@@ -18,7 +18,7 @@ public class LoginTest extends BaseTest {
 		lp=new LoginPage(driver);
 			lp.login("Admin", "admin123");
 			
-	//Assert.assertTrue(false);
+	Assert.assertTrue(false);
 	  }
 	
 
